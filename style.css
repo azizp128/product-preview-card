@@ -44,10 +44,8 @@ body {
   margin-top: 2px;
 }
 
-.card-details .card-title {
-  font-size: 2.3rem;
+.card-details h1 {
   line-height: 1.8rem;
-  font-weight: 900;
   margin-top: 1px;
   margin-bottom: 10px;
 }
