@@ -2,8 +2,6 @@
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
-![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
-
 ## Table of contents
 
 - [Overview](#overview)
@@ -24,6 +22,8 @@ Users should be able to:
 - View the optimal layout depending on their device's screen size
 - See hover and focus states for interactive elements
 
+![Design preview for the Product preview card component coding challenge](./design/desktop-preview.jpg)
+
 ### Screenshot
 
 ![Web Screenshot](./screenshot/full-page.png)
@@ -39,7 +39,6 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - Flexbox
-- Mobile-first workflow
 
 ### What I learned
 
@@ -50,13 +49,18 @@ To see how you can add code snippets, see below:
 ```css
 @media (max-width: 500px) {
   .card {
-    padding: 15px;
+    width: 100%;
+    max-width: 350px;
     flex-direction: column;
+  }
+
+  .card-img {
+    width: 100%;
+    height: 200px;
   }
 
   .card-img .image {
     width: 100%;
-    height: 250px;
     background-image: url(images/image-product-mobile.jpg);
     background-size: cover;
     border-top-right-radius: 10px;
@@ -68,18 +72,13 @@ To see how you can add code snippets, see below:
     border-top-right-radius: 0;
   }
 
-  .container {
-    margin-top: 0;
-  }
-
-  .attribution {
-    margin-top: 220px;
+  .card-details button {
+    padding: 1.4em;
   }
 }
 ```
 
 ## Author
 
-- Website - [Aziz Prabowo](https://azizp128.github.io/)
-- Frontend Mentor - [@azizp128](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@azizp128](https://www.frontendmentor.io/profile/azizp128)
 - Twitter - [@azizprbw](https://www.twitter.com/azizprbw)
